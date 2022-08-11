@@ -20,8 +20,7 @@ app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 8080;
 const cors = require("cors");
-// const url = 'mongodb+srv://dbUser:dbUser@cluster0.kqf4z.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-const url = 'mongodb+srv://aceuni:Carleton4905@khushalkumar.172pb.mongodb.net/Aceuni';
+const url = 'url';
 
 mongoose
  .connect(url, {
@@ -43,7 +42,7 @@ app.use("/api/Authentication",authenticationRoute);
 // app.set('view engine', 'ejs');
 
 // const storage = new GridFsStorage({
-//     url: 'mongodb+srv://aceuni:Carleton4905@khushalkumar.172pb.mongodb.net/Aceuni',
+//     url: 'url',
 //     file: (req, file) => {
 //       return new Promise((resolve, reject) => {
 //         crypto.randomBytes(16, (err, buf) => {
