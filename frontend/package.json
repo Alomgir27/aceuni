@@ -1,0 +1,25 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@carbon/grid": "^11.0.0",
+    "@carbon/icons-react": "^10.48.0",
+    "@svgr/webpack": "^6.2.1",
+    "axios": "^0.26.1",
+    "carbon-components-react": "^7.54.2",
+    "carbon-icons-svelte": "^11.0.1",
+    "crypto-js": "^4.1.1",
+    "mongoose": "^6.2.6",
+    "next": "12.0.8",
+    "next-auth": "^4.3.3",
+    "next-images": "^1.8.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
